@@ -1,0 +1,22 @@
+# CMake and Qt Creator build directories.
+/build/
+/build-*/
+/cmake-build-*/
+
+# Local IDE settings and generated qmake files.
+*.user
+*.user.*
+*.pro.user*
+/.qmake.stash
+/Makefile
+/Makefile.*
+/moc_*.cpp
+/ui_*.h
+*.o
+*.obj
+
+# Platform files and local executables.
+.DS_Store
+/uav_simulator
+/uav_simulator.exe
+/uav_simulator.app/
